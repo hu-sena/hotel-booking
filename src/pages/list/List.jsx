@@ -1,8 +1,12 @@
 import React from 'react'
+import NavBar from '../../components/navbar/NavBar'
+import Header from '../../components/header/Header'
 
 export const List = () => {
   return (
-    <div>List</div>
+    // import asset from respective components
+    <div><NavBar/>
+    <Header type="list"/></div>
   )
 }
 
